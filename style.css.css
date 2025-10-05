@@ -1,0 +1,140 @@
+/*----------------
+Page setup
+----------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+} /*  * is a universal selector and margin-0, padding-0 is necessary to delete the defult margin,padding */ 
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: "Playfair Display", serif;
+} /* Main web page color */
+
+.container{ 
+    max-width: 1000px;
+    background-color: rgb(188, 231, 255);
+    margin: 0 auto; /* margin-0 is for none margin and Auto is use to fix the think in the center */
+    padding: 20px;
+} /* CV, Middle part or Container class color */
+
+
+
+
+/*----------------
+Header part
+----------------*/
+header{
+
+
+}
+
+.profile-image{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%; /* border-radius is use for circle or round the image */
+    float: left; 
+}
+
+.bio-data{
+    float: left;
+    padding: 30px; /* padding is use for adjust the text every side*/
+}
+
+h1, h2, h3, h4, h5{
+    color: darkcyan; /* text color */
+}
+
+.contact{
+    float: right;
+} /* adjust the text side left or right */
+
+.contact a{
+    text-decoration: none; /* use for delete underline or extra text design */
+    color: darkcyan;
+    font-weight: bold; /* to bold the text color */
+}
+
+.contact a:hover{
+    color: rgb(106, 0, 255); /* hover is use when the mause icon go to the text , text color change */
+}
+
+.div-clear{
+    clear: both; /* div clear is necessary for clear upper divs work */
+}
+
+hr{
+    border: solid black 3px;
+    width: 100%;
+    margin: 20px auto; /* margin is use for ghape or separate the think */
+    border-bottom: none; 
+}
+
+
+
+/*----------------
+Main CV part
+----------------*/
+#personal{
+
+}
+.content{
+
+}
+.left-div{
+    width: 30%;
+    float: left;
+
+}
+.right-div{
+    width: 70%;
+    float: left;
+
+}
+
+.common-hr{
+    border: solid black 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+/*----------------
+Education section part
+----------------*/
+.edu-left{
+    float: left;
+    width: 45%;
+}
+.edu-right{
+    float: right;
+    width: 45%;
+}
+
+
+
+/*----------------
+Footer part
+----------------*/
+
+.bottom-section{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.bottom-section a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.bottom-section a:hover{
+    color: cyan;
+}
+
+.bottom-section p{
+    color: white;
+    margin-top: 20px;
+}
